@@ -1,4 +1,4 @@
-.header{
+.header {
   background-color: #FFFFFF;
   padding: 17px 0px;
 }
@@ -21,26 +21,27 @@
 .link {
   margin-right: 17px;
 }
+
 .button {
   border: none;
   display: inline-flex;
   color: #FFFFFF;
   background-color: #EF7F04;
- margin-right:14px; 
- padding: 10px 20px;
- border-radius: 3px;
+  margin-right: 14px; 
+  padding: 10px 20px;
+  border-radius: 3px;
 }
 
-.button-two{
+.button-two {
   border: none;
   display: inline-flex;
   color: #FFFFFF;
   background-color: #3B3A63;
- margin-right:14px; 
- padding: 10px 20px;
- border-radius: 3px;
+  margin-right: 14px; 
+  padding: 10px 20px;
+  border-radius: 3px;
 }
 
-.button-icon{
+.button-icon {
   margin-right: 12px;
 }
