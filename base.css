@@ -1,5 +1,5 @@
 .header {
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   padding: 17px 0px;
 }
 
@@ -52,4 +52,12 @@
 
 .name {
   margin-top: 2px;
+}
+
+.title-section {
+  color: #2F2F51;
+}
+
+*{
+  box-sizing: border-box;
 }
