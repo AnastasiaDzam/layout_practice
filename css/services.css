@@ -9,6 +9,7 @@
 
 .services {
     background-color: #F2F2F2;
+    margin-bottom: 65px;
 }
 
 .services-list {
@@ -43,4 +44,78 @@ padding-right: 150px;
 
 .inner-description {
     line-height: 19px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: #F2F2F2;
+}
+
+.about-advantes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-advantes-item {
+    width: 30% ;
+    display: flex;
+}
+
+.about-advantes-inner {
+    padding-left: 24px;
+}
+
+.inner-title {
+    margin-bottom: 24px;
+}
+
+.advantes-button {
+    display: flex;
+    align-items: center;
+    margin: -100px auto 0 auto;
+    border: none;
+    color: #FFFFFF;
+    background-color: #EF7F04;
+    padding: 18px 32px; 
+}
+
+.title-section {
+color: #2F2F51;
+}
+
+.inner-title {
+color: #2F2F51;
+}
+
+.about-navigation {
+    margin-left: 351px;
+    margin-bottom: 35px;
+    display: flex;
+    gap: 46px;
+    color: #2F2F51;
+}
+.about-advantes-inner-photo {
+    background: url(../img/advantes/picture/1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    padding-top: 180px;
+    padding-left: 70px;
+    padding-bottom: 114px;
+    padding-right: 150px;
+}
+
+.about-advantes-inner-text {
+    margin-left: 177px;
+    margin-right: 500px;
+    margin-top: 75px;
+    line-height: 22px;
 }
