@@ -19,7 +19,7 @@
     gap: 20px;
 }
 
-.services-list-item {
+.services-list__card {
 background: url('../img/first-pict.jpg') ;
 background-repeat: no-repeat;
 background-size: cover;
@@ -30,13 +30,13 @@ padding-bottom: 35px;
 padding-right: 150px;
 }
 
-.inner-top {
+.card-top {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.inner-top-title {
+.card-top-title {
     margin-left: 28px;
     font-weight: 700px;
     font-size: 24px;
@@ -55,21 +55,22 @@ padding-right: 150px;
     background-color: #F2F2F2;
 }
 
-.about-advantes {
+.about__advantes {
     display: flex;
     flex-wrap: wrap;
     align-items: start;
-    margin-bottom: 100px;
+    margin-bottom: px;
     justify-content: space-between;
     gap: 20px;
+    
 }
 
-.about-advantes-item {
-    width: 30% ;
+.about__advantes-item {
     display: flex;
+    width: 30%;
 }
 
-.about-advantes-inner {
+.about__advantes-inner {
     padding-left: 24px;
 }
 
@@ -77,10 +78,10 @@ padding-right: 150px;
     margin-bottom: 24px;
 }
 
-.advantes-button {
+.about__advantes-button {
     display: flex;
     align-items: center;
-    margin: -100px auto 0 auto;
+    margin: 0px auto 0 auto; /* вот тут маржин надо подогнать ещё */
     border: none;
     color: #FFFFFF;
     background-color: #EF7F04;
@@ -95,14 +96,14 @@ color: #2F2F51;
 color: #2F2F51;
 }
 
-.about-navigation {
+.tabs-list {
     margin-left: 351px;
     margin-bottom: 35px;
     display: flex;
     gap: 46px;
     color: #2F2F51;
 }
-.about-advantes-inner-photo {
+.about__inner-photo {
     background: url(../img/advantes/picture/1\ 1.jpg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -113,7 +114,7 @@ color: #2F2F51;
     padding-right: 150px;
 }
 
-.about-advantes-inner-text {
+.about__inner-text {
     margin-left: 177px;
     margin-right: 500px;
     margin-top: 75px;
