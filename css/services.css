@@ -4,7 +4,7 @@
     font-weight: 700;
     text-align: center;
     padding-bottom: 48px;
-    padding-top: 10px;
+    padding-top: 61px;
 }
 
 .services {
@@ -119,22 +119,4 @@ color: #2F2F51;
     margin-right: 500px;
     margin-top: 75px;
     line-height: 22px;
-}
-
-.portfolio {
-    background-color: #FFFFFF;
-   padding: 48px 0;
-    align-items: center;
-    margin: 82px auto 100px auto ;
-    border: none;
-}
-
-.title {
-   padding: 0px 50% 48px 50%; 
-}
-
-.portfolio__list {
-    display: flex;
-    justify-content: center;
-    gap: 0px 45px;
 }

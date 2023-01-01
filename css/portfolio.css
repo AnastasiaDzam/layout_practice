@@ -17,3 +17,22 @@ margin: 14px;
 .question__item-title {
     list-style: none;
 }
+
+ .title {
+    text-align: center;
+    padding-bottom: 48px;
+ }
+
+ .portfolio {
+    background-color: #FFFFFF;
+   padding: 48px 0;
+    align-items: center;
+    margin: 82px auto 100px auto ;
+    border: none;
+}
+
+.portfolio__list {
+    display: flex;
+    justify-content: center;
+    gap: 0px 45px;
+}
