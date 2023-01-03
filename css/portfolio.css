@@ -1,6 +1,7 @@
 .question {
     background-color: #EF7F04;
     padding: 40px 100px 40px 100px;
+    color: #2F2F51;
 }
 
 .question__title {
@@ -10,7 +11,7 @@
 
 .question__item {
 background-color: #EEEEF3;
-padding: 30px 19px ;
+padding: 30px 19px;
 margin: 14px;
 }
 
@@ -18,16 +19,11 @@ margin: 14px;
     list-style: none;
 }
 
- .title {
-    text-align: center;
-    padding-bottom: 48px;
- }
-
- .portfolio {
+.portfolio {
     background-color: #FFFFFF;
-   padding: 48px 0;
+    padding-bottom: 70px;
     align-items: center;
-    margin: 82px auto 100px auto ;
+    margin: 82px auto 0 auto ;
     border: none;
 }
 
@@ -35,4 +31,10 @@ margin: 14px;
     display: flex;
     justify-content: center;
     gap: 0px 45px;
+}
+
+@media (max-width: 1200px) {
+    .portfolio-item:nth-last-child(1) {
+        display: none;
+    }
 }

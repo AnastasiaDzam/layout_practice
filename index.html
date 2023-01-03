@@ -17,8 +17,10 @@
 <body>
   <header class="header">
     <div class="container header-wraper">
-      <img src="./img/logo-company.svg" alt="Лого компании" class="logo">
-
+      <div class="header__icons">
+        <img src="./img/burger.svg" alt="" class="burger__menu">
+        <img src="./img/logo-company.svg" alt="Лого компании" class="logo">
+      </div>
       <nav>
         <ul class="navigation__list">
           <li class="navigation__item">
@@ -41,76 +43,76 @@
           </li>
         </ul>
       </nav>
-      
+
       <div class="header-buttons">
         <button class="button button__orange">
           <img src="./img/mesuring.svg" alt="Картинка для замера" class="button-icon">
-          <p class="button__icon"> Заказать на замер</p>
+          <span class="button__icon"> Заказать на замер</span>
         </button>
 
         <button class="button button__blue">
           <img src="./img/calculation.svg" alt="Картинка для расчета" class="button-icon">
-          <p class="button__icon">Заказать расчет</p>
+          <span class="button__icon">Заказать расчет</span>
         </button>
       </div>
     </div>
   </header>
 
-<main class="main">
-<div class="container main-wrapper">
-<div class="main-left">
-<h1 class="main-left__title">
-  Окна Хаус -
-  <span class="main-left__title main-left__title_big">
-    Профессиональный подход 
-    к остеклению
-  </span>
-</h1>
-  <div class="main__advantes">
+  <main class="main">
+    <div class="container main-wrapper">
+      <div class="main-left">
+        <h1 class="main-left__title">
+          Окна Хаус -
+          <span class="main-left__title main-left__title_big">
+            Профессиональный подход
+            к остеклению
+          </span>
+        </h1>
+        <div class="main__advantes">
 
-    <div class="main__advantes-item item">
-      <img src="./img/main/01.svg" alt="Лого" class="item__img">
-      <p class="item__description">Современные окна
-        и балконные конструкции 
-        по доступным ценам</p>
+          <div class="main__advantes-item item">
+            <img src="./img/main/01.svg" alt="Лого" class="item__img">
+            <p class="item__description">Современные окна
+              и балконные конструкции
+              по доступным ценам</p>
+          </div>
+
+          <div class="main__advantes-item item">
+            <img src="./img/main/02.svg" alt="Лого" class="item__img">
+            <p class="item__description">Квалифицированный
+              подход к решению задач
+              любой сложности</p>
+          </div>
+
+          <div class="main__advantes-item item">
+            <img src="./img/main/03.svg" alt="Лого" class="item__img">
+            <p class="item__description">Гарантия
+              высочайшего качества
+              нашей продукции</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="main-right">
+        <form class="form">
+          <h2 class="form__title">Вызвать замершика на дом</h2>
+          <input type="text" class="form__input" placeholder="Представьтесь, пожалуйста">
+          <input type="text" class="form__input" placeholder="Номер телефона">
+          <input type="text" class="form__input" placeholder="E-mail">
+
+          <label for="" class="form__lable">
+            <input type="checkbox" class="form__check">
+            Согласен на обработку персональных данных
+            в соответствии с <a href="">политикой конфиденциальности</a>
+          </label>
+
+          <button class="form__submit">Отправить заявку</button>
+
+          <img class="form__img" src="./img/main/line.svg" alt="">
+        </form>
+      </div>
     </div>
-
-    <div class="main__advantes-item item">
-      <img src="./img/main/02.svg" alt="Лого" class="item__img">
-      <p class="item__description">Квалифицированный 
-        подход к решению задач
-        любой сложности</p>
-    </div>
-
-    <div class="main__advantes-item item">
-      <img src="./img/main/03.svg" alt="Лого" class="item__img">
-      <p class="item__description">Гарантия 
-        высочайшего качества 
-        нашей продукции</p>
-    </div>
-
-  </div>
-</div>
-<div class="main-right">
-<form class="form">
-  <h2 class="form__title">Вызвать замершика на дом</h2>
-<input type="text" class="form__input" placeholder="Представьтесь, пожалуйста">
-<input type="text" class="form__input" placeholder="Номер телефона">
-<input type="text" class="form__input" placeholder="E-mail">
-
-<label for="" class="form__lable">
-<input type="checkbox" class="form__check">
-Согласен на обработку персональных данных 
-в соответствии с <a href="">политикой конфиденциальности</a>
-</label>
-
-<button class="form__submit">Отправить заявку</button>
-
-<img class="form__img" src="./img/main/line.svg" alt="">
-</form>
-</div>
-</div>
-</main>
+  </main>
 
   <div class="wrapper">
     <div class="container">
@@ -120,7 +122,7 @@
         <h2 class="title-section">
           Наши услуги
         </h2>
-        
+
         <div class="services-list">
 
           <div class="services-list__card card">
@@ -145,7 +147,7 @@
 
             <div class="card-top">
               <img src="./img/second-logo.svg" alt="logo">
-              
+
               <h3 class="card-top-title">
                 Остекление балконов и лоджий
               </h3>
@@ -154,14 +156,14 @@
             <div class="inner-description card-description">
               Занимаемся остеклением и отделкой
               балконов и лоджий. Теплое и холодное остекление,
-               изготовление выносов и крыш. Беремся за сложные объекты
+              изготовление выносов и крыш. Беремся за сложные объекты
             </div>
           </div>
 
           <div class="services-list__card card">
             <div class="card-top">
               <img src="./img/third-logo.svg" alt="logo">
-             
+
               <h3 class="card-top-title">
                 Остекление коттеджей и дач
               </h3>
@@ -179,7 +181,7 @@
           <div class="services-list__card card">
             <div class="card-top">
               <img src="./img/fourth-logo.svg" alt="logo">
-              
+
               <h3 class="card-top-title">
                 Остекление корпоративных объектов
               </h3>
@@ -276,69 +278,69 @@
           <img src="./img/buy.svg" alt="Лого" class="button-icon">
           Оформить заявку на замер
         </button>
-        </section>
+      </section>
 
-        <section class="portfolio">
-          <div class="title">Портфолио</div>
-          <div class="portfolio__list">
-            <img src="./img/portfolio/1.jpg" alt="Картинка окна" class="portfolio-item">
-            <img src="./img/portfolio/2.jpg" alt="Картинка окна" class="portfolio-item">
-            <img src="./img/portfolio/3.jpg" alt="Картинка окна" class="portfolio-item">
-            <img src="./img/portfolio/4.png" alt="Картинка окна" class="portfolio-item">
-          </div>
-        </section>
+      <section class="portfolio">
+        <h2 class="title-section title-section__portfolio">Портфолио</h2>
+        <div class="portfolio__list">
+          <img src="./img/portfolio/1.jpg" alt="Картинка окна" class="portfolio-item">
+          <img src="./img/portfolio/2.jpg" alt="Картинка окна" class="portfolio-item">
+          <img src="./img/portfolio/3.jpg" alt="Картинка окна" class="portfolio-item">
+          <img src="./img/portfolio/4.png" alt="Картинка окна" class="portfolio-item">
+        </div>
+      </section>
 
-        <section class="question">
-          <h2 class="title-section question__title">Вопрос-Ответ</h2>
-          <details class="question__item">
-            <summary class="question__item-title">
-              Сколько по времени занимает изготовление пластиковых окон?
-            </summary>
-            Нет, команда мастеров 
-            все сами аккуратно доставят и внесут.
-          </details>
+      <section class="question">
+        <h2 class="title-section question__title title-section__question">Вопрос-Ответ</h2>
+        <details class="question__item">
+          <summary class="question__item-title">
+            Сколько по времени занимает изготовление пластиковых окон?
+          </summary>
+          Нет, команда мастеров
+          все сами аккуратно доставят и внесут.
+        </details>
 
-          <details class="question__item">
-            <summary class="question__item-title">
-              Какие существуют способы оплаты?
-            </summary>
-            Нет, команда мастеров 
-            все сами аккуратно доставят и внесут.
-          </details>
+        <details class="question__item">
+          <summary class="question__item-title">
+            Какие существуют способы оплаты?
+          </summary>
+          Нет, команда мастеров
+          все сами аккуратно доставят и внесут.
+        </details>
 
-          <details class="question__item">
-            <summary class="question__item-title">
-              Где я могу посмотреть образцы?
-            </summary>
-            Нет, команда мастеров 
-            все сами аккуратно доставят и внесут.
-          </details>
+        <details class="question__item">
+          <summary class="question__item-title">
+            Где я могу посмотреть образцы?
+          </summary>
+          Нет, команда мастеров
+          все сами аккуратно доставят и внесут.
+        </details>
 
-          <details class="question__item">
-            <summary class="question__item-title">
-              Зачем вызывать замерщика? Я могу дать размеры
-            </summary>
-            Нет, команда мастеров 
-            все сами аккуратно доставят и внесут.
-          </details>
+        <details class="question__item">
+          <summary class="question__item-title">
+            Зачем вызывать замерщика? Я могу дать размеры
+          </summary>
+          Нет, команда мастеров
+          все сами аккуратно доставят и внесут.
+        </details>
 
-          <details class="question__item">
-            <summary class="question__item-title">
-              Хотелось бы отделать балкон. Поможете?
-            </summary>
-            Нет, команда мастеров 
-            все сами аккуратно доставят и внесут.
-          </details>
+        <details class="question__item">
+          <summary class="question__item-title">
+            Хотелось бы отделать балкон. Поможете?
+          </summary>
+          Нет, команда мастеров
+          все сами аккуратно доставят и внесут.
+        </details>
 
-          <details class="question__item">
-            <summary class="question__item-title">
-              Мне надо нанимать грузчиков для подъема?
-            </summary>
-            Нет, команда мастеров 
-            все сами аккуратно доставят и внесут.
-          </details>
+        <details class="question__item">
+          <summary class="question__item-title">
+            Мне надо нанимать грузчиков для подъема?
+          </summary>
+          Нет, команда мастеров
+          все сами аккуратно доставят и внесут.
+        </details>
 
-        </section>
+      </section>
     </div>
   </div>
   </div>

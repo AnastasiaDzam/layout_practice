@@ -1,5 +1,5 @@
 .main {
-    background-image: url('../Layout_practice/img/main/Group\ 16.jpg');
+    background-image: url('./img/main/Group\ 16.jpg');
     padding: 160px 0 60px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,6 @@
     padding-top: 20px;
     color:#FFFFFF;
 }
-
 
 .main-wrapper {
 display: flex;
@@ -108,4 +107,14 @@ display: flex;
     
     bottom: -55px;
     right: -130px;
+}
+
+@media (max-width: 1200px) {
+    .main-right {
+        display: none;
+    }
+    .main-left {
+        padding-left: 0;
+        margin-left: -100px;
+    }
 }
