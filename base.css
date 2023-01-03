@@ -18,6 +18,24 @@
   align-items: center;
 }
 
+.title-section {
+  color: #2F2F51;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 48px;
+  padding-top: 61px;
+}
+.title-section__question {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.title-section__portfolio {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 .navigation__list {
   display: flex;
   align-items: center;
@@ -56,6 +74,9 @@
   margin-right: 12px;
 }
 
+.header__icons {
+  display: flex;
+}
 .name {
   margin-top: 2px;
 }
@@ -63,5 +84,28 @@
 *{
   box-sizing: border-box;
 }
+
+.logo {
+  margin-left: 44px;
+}
+
+.burger__menu {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 880px;
+  }
+
+  .burger__menu {
+    display: block;
+  }
+
+  .navigation__list {
+    display: none;
+  }
+}
+
 
 
