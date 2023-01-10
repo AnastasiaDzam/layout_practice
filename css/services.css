@@ -1,6 +1,13 @@
 .services {
     background-color: #F2F2F2;
     margin-bottom: 65px;
+
+}
+
+.title-section {
+    font-size: 24px;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .services-list {
@@ -29,12 +36,17 @@ padding-right: 150px;
 
 .card-top-title {
     margin-left: 28px;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 24px;
+    line-height: 28px;
+    color: #2F2F51;
 }
 
 .inner-description {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 19px;
+    color: #2F2F51;
 }
 
 .wrapper {
@@ -47,7 +59,7 @@ padding-right: 150px;
     align-items: start;
     margin-bottom: px;
     justify-content: space-between;
-    gap: 20px;
+    gap: 60px;
     
 }
 
@@ -62,6 +74,10 @@ padding-right: 150px;
 
 .about__inner-title {
 padding-bottom: 20px;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #2F2F51;
 }
 
 .inner-title {
@@ -77,6 +93,8 @@ padding-bottom: 20px;
     background-color: #EF7F04;
     padding: 18px 32px; 
     border-radius: 3px;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .about__advantes-button:hover {
@@ -86,24 +104,29 @@ padding-bottom: 20px;
   }
 
 .title-section {
-color: #2F2F51;
+    color: #2F2F51;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .inner-title {
-color: #2F2F51;
+    color: #2F2F51;
 }
 
 .tabs-list {
-    margin-left: 351px;
-    margin-bottom: 35px;
+    margin: 0 auto 35px auto;
     display: flex;
     gap: 46px;
     color: #2F2F51;
+    justify-content: center;
 }
 
 .tabs__item {
     margin-top: -10px;
     padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .tabs__item:hover{
@@ -133,6 +156,8 @@ color: #2F2F51;
     margin-right: 500px;
     margin-top: 75px;
     line-height: 22px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 @media (max-width: 1200px) {

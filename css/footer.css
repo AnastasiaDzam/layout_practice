@@ -1,0 +1,28 @@
+.contacts {
+  background-color:#2F2F51;
+  align-items: center;
+  margin-top: 75px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__container {
+ display: flex;
+ justify-content: space-between;
+ gap: 350px;
+ align-items: center;
+}
+
+.footer_left {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer_right {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
