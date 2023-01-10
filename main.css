@@ -9,7 +9,7 @@
     color: #EF7F04;
     padding-left: 92px;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .main-left__title_big {
@@ -17,7 +17,7 @@
     color: #FFFFFF;
     font-size: 36px;
     font-weight: 100;
-    padding-left: 0;
+    padding-left: 22px;
 }
 
 .main__advantes {
@@ -28,6 +28,7 @@
     padding-bottom: 131px;
     justify-content: space-between;
     gap: 33px;
+    font-size: 14px;
 }
 .main-left {
     padding-top: 131px;
@@ -36,6 +37,9 @@
 .item__description {
     padding-top: 20px;
     color:#FFFFFF;
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
 }
 
 .main-wrapper {
@@ -48,7 +52,6 @@ display: flex;
     padding: 43px 40px 80px 40px;
     border-radius: 10px;
     position: relative;
-    
 }
 
 .form__title {
@@ -90,6 +93,8 @@ display: flex;
 .form__lable {
     display: block;
     margin-bottom: 35px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .table {
